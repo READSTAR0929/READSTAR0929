@@ -14,7 +14,20 @@
 
  -2023/11/1
    字符串:用双引号引起来的一串字符,结束标志是一个 \0 的转义字符,计算字符串长度的时候 \0 是结束标志，不算作字符串内容,求字符串长度用strlen(string length),
-
+   转义字符 释义
+   \? 在书写连续多个问号时使用，防止他们被解析成三字母词
+   \' 用于表示字符常量'
+   \“ 用于表示一个字符串内部的双引号
+   \\ 用于表示一个反斜杠，防止它被解释为一个转义序列符。
+   \a 警告字符，蜂鸣
+   \b 退格符
+   \f 进纸符
+   \n 换行
+   \r 回车
+   \t 水平制表符
+   \v 垂直制表符
+   \ddd ddd表示1~3个八进制的数字。 如： \130 X
+   \xdd dd表示2个十六进制数字。 如： \x30 0
 <!---
 READSTAR0929/READSTAR0929 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
