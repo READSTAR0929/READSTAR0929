@@ -12,6 +12,9 @@
        #define 定义的标识符常量
        枚举常量:枚举常量的默认是从0开始，依次向下递增1的,可以赋初值改变
 
+ -2023/11/1
+   字符串:用双引号引起来的一串字符,结束标志是一个 \0 的转义字符,计算字符串长度的时候 \0 是结束标志，不算作字符串内容,求字符串长度用strlen(string length),
+
 <!---
 READSTAR0929/READSTAR0929 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
